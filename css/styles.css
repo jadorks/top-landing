@@ -3,11 +3,15 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
-
-.container{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* Header section */
@@ -167,3 +171,17 @@ a {
 }
 
 /* End Modal section */
+
+
+/* Footer Section */
+.footer{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+
+/* End Footer Section */
