@@ -80,5 +80,90 @@ a {
 /* End hero section */
 
 /* Info Section */
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
 
+.info__container{
+    display: flex;
+    gap: 50px;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.info__item .text{
+    text-align: center;
+    color: #1F2937;
+}
 /* End Info Section */
+
+
+/* Testinomial Section */
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 240px;
+}
+
+.testimonial__text{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.testimonial__author{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* Modal section */
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta__modal{
+    display: flex;
+    align-items: center;
+    padding: 40px 200px;
+    background-color: #3882F6;
+    gap: 120px;
+    border-radius: 5px;
+}
+
+.modal__left h4, .modal__left p {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.modal__left h4{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.modal__right button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: #F9FAF8;
+}
+
+/* End Modal section */
